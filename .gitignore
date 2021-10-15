@@ -6,3 +6,7 @@
 log/
 //TMNT_IV*
 readme.txt
+*.cpu.sym
+*.sfc
+*.smp.sym
+
