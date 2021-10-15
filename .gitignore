@@ -3,6 +3,6 @@ log/
 *.dll
 *.exe
 readme.txt
-.xlsx
-.zip
-.bak
+*.xlsx
+*.zip
+*.bak
