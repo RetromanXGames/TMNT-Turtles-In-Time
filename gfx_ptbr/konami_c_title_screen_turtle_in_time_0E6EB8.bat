@@ -1,0 +1,2 @@
+konami_c.exe "title_screen_turtle_in_time_0E6EB8.bin" "title_screen_turtle_in_time_0E6EB8_compressed.bin" 1
+pause
