@@ -146,6 +146,22 @@
 //---------------------------------------------------------------------------
 
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//xxxxxxxxxxxxxxx    SELECT YOUR TURTLE SCRIPT    xxxxxxxxxxxxxxxxxxxxxxxxxxx
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//xxxxxxxxxxxxxxxxxxxxxx    POINTERS    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+	//origin $0230CF
+    //include "asm\pointers_select_your_turtle.asm"	
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//xxxxxxxxxxxxxxxxxxxxxx    SCRIPTS    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+	origin $008545
+    include "scripts_ptbr\select_your_turtle.asm"
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+//---------------------------------------------------------------------------
+
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxx    HUD SCRIPTS    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
@@ -329,7 +345,7 @@ origin $00E77C
 
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx	
-//xxxxxxxxxxxxxx   BRANCH FROM EXTRA CHARACTERS OF FONT   xxxxxxxxxxxxxxxxxxx
+//xxxx   BRANCH FROM EXTRA CHARACTERS OF FONT IN INTRO AND CLEAR STAGES   xxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
@@ -340,44 +356,52 @@ origin $00E77C
 extra_chars:
 	insert "gfx_ptbr\font_1_80000_extra_characters.bin"
 extra_chars_end:
-//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx	
-//xxxxxxxxxxxx   BRANCH FROM EXTRA CHARACTERS OF FONT INGAME  xxxxxxxxxxxxxxx
-//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-    origin $0026A3
-  	jml    $228000
-    
-    origin $110000
-	include "asm\extra_characters_1.asm"
-//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx	
-//xxxxxxxx   BRANCH FROM EXTRA CHARACTERS OF FONT IN PLAYER SELECT  xxxxxxxxx
-//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-    origin $02145D
-  	jml    $21A000
-    
-    origin $10A000
-	include "asm\extra_characters_2.asm"
-//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx	
-//xxxxxxxx   BRANCH FROM EXTRA CHARACTERS OF FONT WHEN START GAME   xxxxxxxxx
-//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-    origin $0112E1
-  	jml    $21D000
-    
-    origin $10D000
-	include "asm\extra_characters_3.asm"
-//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx	
-//xxxxxxxxx   BRANCH FROM EXTRA CHARACTERS OF FONT IN END STAGE 2  xxxxxxxxxx
-//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-    origin $0017D7
-  	jml    $218600
 
+origin $100610
+extra_chars_intro_2:
+	insert "gfx_ptbr\font_1_80000.bin"
+extra_chars_intro_2_end:
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx	
+//xx   ROUTINE BRANCH FROM EXTRA CHARACTERS OF FONT OF STAGE INTRO TITLE  xxx
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    origin $01135C
+  	jml    $21A200
+    
+    origin $10A200
+	include "asm\extra_characters_stage_intro.asm"
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx	
+//xx   ROUTINE BRANCH FROM EXTRA CHARACTERS OF FONT OF STAGE CLEAR TITLE  xxx
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    origin $011882
+  	jml    $21A400
+    
+    origin $10A400
+	include "asm\extra_characters_stage_clear.asm"
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx	
+
+//---------------------------------------------------------------------------
+
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx	
+//xxxxxxxxxxx   BRANCH FROM EXTRA CHARACTERS OF TITLE SCREEN   xxxxxxxxxxxxxx
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//xxxxxxxxxxxx   GFX FROM EXTRA CHARACTERS OF TITLE SCREEN   xxxxxxxxxxxxxxxx
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
     origin $107200
 extra_chars_menu_title_screen:
     insert "gfx_ptbr\font_8000_extra_characters_title_screen_menu.bin"
 extra_chars_menu_title_screen_end:
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//xxxxxxx   ROUTINE BRANCH FROM EXTRA CHARACTERS ON TITLE SCREEN  xxxxxxxxxxx
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    origin $0017B4
+  	jml    $218600
 
-    
     origin $108600
-	include "asm\extra_characters_6.asm"
+	include "asm\extra_characters_title_screen_menu.asm"
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 //---------------------------------------------------------------------------
@@ -389,28 +413,49 @@ extra_chars_menu_title_screen_end:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-//xxxxxxxxxxxxx   GFX FROM EXTRA CHARACTERS OF OPTION MODE   xxxxxxxxxxxxxxxx
+//xxxxxxxx   GFX FROM EXTRA CHARACTERS AND TILEMAP OF OPTION MODE   xxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
     origin $105700
-extra_chars_2:
+extra_chars_option_mode:
 	insert "gfx_ptbr\font_1_80000_extra_characters3.bin"
-extra_chars_2_end:
+extra_chars_option_mode_end:
 
     origin $106700
 tilemap_options_mode:
 	insert "gfx_ptbr\tilemap_option_mode_2.bin"
 tilemap_options_mode_end:
 
+    origin $10A800
+select_your_turtle:
+    insert "gfx_ptbr\font_8000_extra_characters_select_your_turtle.bin"
+select_your_turtle_end:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-//xxxxxxxxxxx   TILEMAP FROM EXTRA CHARACTERS OF OPTION MODE   xxxxxxxxxxxxxx
+//xxxxxx   TILEMAP AND ROUTINE FROM EXTRA CHARACTERS OF OPTION MODE   xxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-    origin $0017B7
+    origin $0017B4
   	jml    $20D400
     
     origin $105400
-	include "asm\extra_characters_4.asm"
-//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx	
-
+	include "asm\extra_characters_option_menu.asm"
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
+//    origin $0097B2
+//    jml    $248800
+//
+//    origin $120800
+//    ldx $00
+//    ldy $0000,x
+//    cpx #$5811
+//    bne retorno_ponteiro 
+//    //phx 
+//    //phy
+//    ldx #$5812
+//    retorno_ponteiro     
+//    //ply 
+//    //plx 
+//    jml $0097B7
+//
+//
 //---------------------------------------------------------------------------
 
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx

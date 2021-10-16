@@ -13,6 +13,11 @@ macro gameText_stage_end(text) {
  db {text}
 }
 
+macro gameText_select_your_turtle(text) {
+ table "tables\select_your_turtle.tbl"
+ db {text}
+}
+
 macro gameText(text) {
  table "tables\tbl_scripts.tbl"
  db {text}

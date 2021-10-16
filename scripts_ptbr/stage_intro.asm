@@ -20,7 +20,7 @@ stage_intro_0000:
 //xxxxxxxx    CONFIGURA O BANCO DA VRAM ONDE ESTÁ A FONTE    xxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----[VRAM BANK]-----------------------------------------------------------
-    dw $3700
+    dw $3400
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
@@ -40,7 +40,7 @@ newline()
 //xxxxxxxx    CONFIGURA O BANCO DA VRAM ONDE ESTÁ A FONTE    xxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----[VRAM BANK]-----------------------------------------------------------
-    dw $2700
+    dw $2400
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
@@ -60,7 +60,7 @@ newline()
 //xxxxxxxx    CONFIGURA O BANCO DA VRAM ONDE ESTÁ A FONTE    xxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----[VRAM BANK]-----------------------------------------------------------
-    dw $2700
+    dw $2400
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
@@ -94,7 +94,7 @@ stage_intro_0001:
 //xxxxxxxx    CONFIGURA O BANCO DA VRAM ONDE ESTÁ A FONTE    xxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----[VRAM BANK]-----------------------------------------------------------
-    dw $3700
+    dw $3400
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
@@ -114,7 +114,7 @@ newline()
 //xxxxxxxx    CONFIGURA O BANCO DA VRAM ONDE ESTÁ A FONTE    xxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----[VRAM BANK]-----------------------------------------------------------
-    dw $2700
+    dw $2400
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
@@ -148,7 +148,7 @@ stage_intro_0002:
 //xxxxxxxx    CONFIGURA O BANCO DA VRAM ONDE ESTÁ A FONTE    xxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----[VRAM BANK]-----------------------------------------------------------
-    dw $3700
+    dw $3400
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
@@ -168,7 +168,7 @@ newline()
 //xxxxxxxx    CONFIGURA O BANCO DA VRAM ONDE ESTÁ A FONTE    xxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----[VRAM BANK]-----------------------------------------------------------
-    dw $2700
+    dw $2400
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
@@ -202,7 +202,7 @@ stage_intro_0003:
 //xxxxxxxx    CONFIGURA O BANCO DA VRAM ONDE ESTÁ A FONTE    xxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----[VRAM BANK]-----------------------------------------------------------
-    dw $3700
+    dw $3400
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
@@ -222,7 +222,7 @@ newline()
 //xxxxxxxx    CONFIGURA O BANCO DA VRAM ONDE ESTÁ A FONTE    xxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----[VRAM BANK]-----------------------------------------------------------
-    dw $2700
+    dw $2400
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
@@ -242,7 +242,7 @@ newline()
 //xxxxxxxx    CONFIGURA O BANCO DA VRAM ONDE ESTÁ A FONTE    xxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----[VRAM BANK]-----------------------------------------------------------
-    dw $2700
+    dw $2400
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
@@ -276,7 +276,7 @@ stage_intro_0004:
 //xxxxxxxx    CONFIGURA O BANCO DA VRAM ONDE ESTÁ A FONTE    xxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----[VRAM BANK]-----------------------------------------------------------
-    dw $2B00
+    dw $2800
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
@@ -296,7 +296,7 @@ newline()
 //xxxxxxxx    CONFIGURA O BANCO DA VRAM ONDE ESTÁ A FONTE    xxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----[VRAM BANK]-----------------------------------------------------------
-    dw $2700
+    dw $2400
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
@@ -316,7 +316,7 @@ newline()
 //xxxxxxxx    CONFIGURA O BANCO DA VRAM ONDE ESTÁ A FONTE    xxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----[VRAM BANK]-----------------------------------------------------------
-    dw $2700
+    dw $2400
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
@@ -350,7 +350,7 @@ stage_intro_0005:
 //xxxxxxxx    CONFIGURA O BANCO DA VRAM ONDE ESTÁ A FONTE    xxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----[VRAM BANK]-----------------------------------------------------------
-    dw $2B00
+    dw $2800
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
@@ -370,7 +370,7 @@ newline()
 //xxxxxxxx    CONFIGURA O BANCO DA VRAM ONDE ESTÁ A FONTE    xxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----[VRAM BANK]-----------------------------------------------------------
-    dw $2700
+    dw $2400
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
@@ -404,7 +404,7 @@ stage_intro_0006:
 //xxxxxxxx    CONFIGURA O BANCO DA VRAM ONDE ESTÁ A FONTE    xxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----[VRAM BANK]-----------------------------------------------------------
-    dw $2B00
+    dw $2800
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
@@ -424,7 +424,7 @@ newline()
 //xxxxxxxx    CONFIGURA O BANCO DA VRAM ONDE ESTÁ A FONTE    xxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----[VRAM BANK]-----------------------------------------------------------
-    dw $2700
+    dw $2400
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
@@ -444,7 +444,7 @@ newline()
 //xxxxxxxx    CONFIGURA O BANCO DA VRAM ONDE ESTÁ A FONTE    xxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----[VRAM BANK]-----------------------------------------------------------
-    dw $2700
+    dw $2400
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
@@ -480,7 +480,7 @@ stage_intro_0007:
 //xxxxxxxx    CONFIGURA O BANCO DA VRAM ONDE ESTÁ A FONTE    xxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----[VRAM BANK]-----------------------------------------------------------
-    dw $2B00
+    dw $2800
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
@@ -500,7 +500,7 @@ newline()
 //xxxxxxxx    CONFIGURA O BANCO DA VRAM ONDE ESTÁ A FONTE    xxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----[VRAM BANK]-----------------------------------------------------------
-    dw $2700
+    dw $2400
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
@@ -537,7 +537,7 @@ stage_intro_0008:
 //xxxxxxxx    CONFIGURA O BANCO DA VRAM ONDE ESTÁ A FONTE    xxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----[VRAM BANK]-----------------------------------------------------------
-    dw $2B00
+    dw $2800
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
@@ -557,7 +557,7 @@ newline()
 //xxxxxxxx    CONFIGURA O BANCO DA VRAM ONDE ESTÁ A FONTE    xxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----[VRAM BANK]-----------------------------------------------------------
-    dw $2700
+    dw $2400
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
@@ -573,7 +573,7 @@ newline()
 //xxxxxxxxxxx    WHERE NO TURTLE HAS GONE BEFORE //1//    xxxxxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----[VRAM BANK]-----------------------------------------------------------
-    dw $2700
+    dw $2400
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
@@ -593,7 +593,7 @@ newline()
 //xxxxxxxx    CONFIGURA O BANCO DA VRAM ONDE ESTÁ A FONTE    xxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----[VRAM BANK]-----------------------------------------------------------
-    dw $2700
+    dw $2400
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
@@ -627,7 +627,7 @@ stage_intro_0009:
 //xxxxxxxx    CONFIGURA O BANCO DA VRAM ONDE ESTÁ A FONTE    xxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----[VRAM BANK]-----------------------------------------------------------
-    dw $2B00
+    dw $2800
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
@@ -647,7 +647,7 @@ newline()
 //xxxxxxxx    CONFIGURA O BANCO DA VRAM ONDE ESTÁ A FONTE    xxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----[VRAM BANK]-----------------------------------------------------------
-    dw $2700
+    dw $2400
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
@@ -667,7 +667,7 @@ newline()
 //xxxxxxxx    CONFIGURA O BANCO DA VRAM ONDE ESTÁ A FONTE    xxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----[VRAM BANK]-----------------------------------------------------------
-    dw $2700
+    dw $2400
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
