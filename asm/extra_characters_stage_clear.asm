@@ -51,7 +51,7 @@ branch_extra_characters_stage_clear:
     sta     REG_DMAP0
     lda     #$0018        // DMA Dest
     sta     REG_BBAD0
-    ldx     #$BA00       // DMA Src* | Endereço de SNES do gráfico na ROM
+    ldx     #$9600       // DMA Src* | Endereço de SNES do gráfico na ROM
     stx     REG_A1T0L
     lda     #$0020       // DMA Bank*| Banco de SNES do gráfico na ROM
     sta     REG_A1B0

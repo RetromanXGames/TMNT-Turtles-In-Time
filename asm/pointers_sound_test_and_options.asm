@@ -1,0 +1,53 @@
+dw script_option_mode_sound_test_0000
+dw script_option_mode_sound_test_0001
+dw script_option_mode_sound_test_0002
+dw script_option_mode_sound_test_0003
+dw script_option_mode_sound_test_0004
+dw script_option_mode_sound_test_0005
+dw script_option_mode_sound_test_0006
+dw script_option_mode_sound_test_0007
+
+origin $00D7D8
+dw script_option_mode_sound_test_0008
+dw script_option_mode_sound_test_0009
+dw script_option_mode_sound_test_0010
+dw script_option_mode_sound_test_0011
+
+origin $00D7E2
+dw script_option_mode_sound_test_0012
+dw script_option_mode_sound_test_0013
+dw script_option_mode_sound_test_0014
+
+origin $00D8AA
+dw script_option_mode_sound_test_0015
+dw script_option_mode_sound_test_0016
+dw script_option_mode_sound_test_0017
+dw script_option_mode_sound_test_0018
+dw script_option_mode_sound_test_0019
+//dw script_option_mode_sound_test_0020
+//dw script_option_mode_sound_test_0021
+//dw script_option_mode_sound_test_0022
+//dw script_option_mode_sound_test_0023
+//dw script_option_mode_sound_test_0024
+//dw script_option_mode_sound_test_0025
+//dw script_option_mode_sound_test_0026
+//dw script_option_mode_sound_test_0027
+//dw script_option_mode_sound_test_0028
+//dw script_option_mode_sound_test_0029
+//dw script_option_mode_sound_test_0030
+//dw script_option_mode_sound_test_0031
+//dw script_option_mode_sound_test_0032
+//dw script_option_mode_sound_test_0033
+//dw script_option_mode_sound_test_0034
+//dw script_option_mode_sound_test_0035
+//dw script_option_mode_sound_test_0036
+//dw script_option_mode_sound_test_0037
+//dw script_option_mode_sound_test_0038
+//dw script_option_mode_sound_test_0039
+//dw script_option_mode_sound_test_0040
+//dw script_option_mode_sound_test_0041
+//dw script_option_mode_sound_test_0042
+//dw script_option_mode_sound_test_0043
+//dw script_option_mode_sound_test_0044
+//dw script_option_mode_sound_test_0045
+
