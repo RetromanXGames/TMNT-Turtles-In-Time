@@ -10,7 +10,7 @@ option_mode_0000:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
 //-----[Y][X]----------------------------------------------------------------
-    dw $5066
+    dw $5065
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
     //db $BC, $BD
@@ -18,7 +18,7 @@ option_mode_0000:
  newline()
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
 //-----[Y][X]----------------------------------------------------------------
-    dw $5085
+    dw $5084
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
     //db $0B, $0C, $0D, $0E, $00
@@ -32,7 +32,7 @@ option_mode_0000:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
 //-----[Y][X]----------------------------------------------------------------
-    dw $50CE
+    dw $50CD
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
     //db $20, $21, $22, $23, $24, $25, $26, $00 
@@ -54,7 +54,7 @@ option_mode_0001:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
 //-----[Y][X]----------------------------------------------------------------
-    dw 5105
+    dw 5104
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
     //db $29, $2A, $2B, $2C, $2D, $2E, $2F, $00, $00, $33, $34, $35, $36  
@@ -68,7 +68,7 @@ option_mode_0001:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
 //-----[Y][X]----------------------------------------------------------------
-    dw $5145
+    dw $5144
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
     //db $30, $31, $32
@@ -82,7 +82,7 @@ option_mode_0001:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
 //-----[Y][X]----------------------------------------------------------------
-    dw $514E
+    dw $514D
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
     //db $37, $38, $39, $3A, $3B 
@@ -96,7 +96,7 @@ option_mode_0001:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
 //-----[Y][X]----------------------------------------------------------------
-    dw $518E
+    dw $518D
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
     //db $40, $41, $42, $43, $44, $45
@@ -105,7 +105,30 @@ endstring()
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 //---------------------------------------------------------------------------
+
+origin $86D8
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//option_mode_0003:
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//xxxxxxxxxxxxxxxxxxxxxx    SCRIPT CONTINUE    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
+//-----[Y][X]----------------------------------------------------------------
+    dw $51CD
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//--------SCRIPT-------------------------------------------------------------
+    gameText_ingame("continuar")
+endstring()
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
 //---------------------------------------------------------------------------
+
+
 
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 option_mode_0002:
@@ -119,7 +142,7 @@ option_mode_0002:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
 //-----[Y][X]----------------------------------------------------------------
-    dw $51C5
+    dw $51C4
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
     //db $3C, $3D, $3E, $3F 
@@ -142,7 +165,7 @@ option_mode_0004:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
 //-----[Y][X]----------------------------------------------------------------
-    dw 5205
+    dw 5204
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
     //db $46, $47, $48, $49, $4A, $4B 
@@ -164,7 +187,7 @@ option_mode_0005:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
 //-----[Y][X]----------------------------------------------------------------
-    dw 5245
+    dw 5244
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
     //db $50, $51, $52, $55, $54, $55, $56, $57, $58, $59 
@@ -186,7 +209,7 @@ option_mode_0006:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
 //-----[Y][X]----------------------------------------------------------------
-    dw $5285
+    dw $5284
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
     //db $60, $61, $62, $63, $64, $65, $66, $67, $68 
@@ -208,7 +231,7 @@ option_mode_0007:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
 //-----[Y][X]----------------------------------------------------------------
-    dw $52C5
+    dw $52C4
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
     //db $76, $77, $78, $79, $7A, $7B, $7C, $7D 
@@ -230,7 +253,7 @@ option_mode_0008:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
 //-----[Y][X]----------------------------------------------------------------
-    dw 5205
+    dw 5204
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
     //db $76, $77, $78, $79, $7A, $86, $87, $88
@@ -252,7 +275,7 @@ option_mode_0009:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
 //-----[Y][X]----------------------------------------------------------------
-    dw $5345
+    dw $5344
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
     //db $4C, $4D, $4E
@@ -262,6 +285,8 @@ endstring()
 
 //---------------------------------------------------------------------------
 
+
+origin $890F
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 option_mode_0010:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
@@ -274,19 +299,19 @@ option_mode_0010:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
 //-----[Y][X]----------------------------------------------------------------
-    dw $506E
+    dw $506D
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-ACENTO AGÚDO------------------------------------------------
-    gameText_ingame("(hifen)")
+    gameText_ingame(" (hifen)  ")
  newline()
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
 //-----[Y][X]----------------------------------------------------------------
-    dw $508E
+    dw $508D
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-EASY--------------------------------------------------------
-    gameText_ingame("facil ") 
+    gameText_ingame("facil  ") 
  newline()
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxx    SCRIPT 3    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
@@ -296,7 +321,7 @@ option_mode_0010:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
 //-----[Y][X]----------------------------------------------------------------
-    dw $50D8
+    dw $50D7
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
     gameText_ingame("3")
@@ -304,6 +329,7 @@ endstring()
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 //---------------------------------------------------------------------------
+
 
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 option_mode_0011:
@@ -317,10 +343,19 @@ option_mode_0011:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
 //-----[Y][X]----------------------------------------------------------------
-    dw $508E
+    dw $506D
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//--------SCRIPT-ACENTO AGÚDO------------------------------------------------
+   gameText_ingame(" (hifen)  ")
+ newline()
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
+//-----[Y][X]----------------------------------------------------------------
+    dw $508D
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-NORMAL------------------------------------------------------
-    gameText_ingame("normal ")
+    gameText_ingame("medio  ")
  newline()
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxx    SCRIPT 4    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
@@ -330,7 +365,7 @@ option_mode_0011:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
 //-----[Y][X]----------------------------------------------------------------
-    dw $50D8
+    dw $50D7
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
     gameText_ingame("4")
@@ -338,10 +373,6 @@ endstring()
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 //---------------------------------------------------------------------------
-
-////xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-//origin $00FFD6
-////xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 option_mode_0012:
@@ -355,16 +386,16 @@ option_mode_0012:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
 //-----[Y][X]----------------------------------------------------------------
-    dw $506E
+    dw $506D
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-ACENTO AGÚDO------------------------------------------------
-   gameText_ingame("(hifen)")
+   gameText_ingame("   (hifen)")
  newline()
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
 //-----[Y][X]----------------------------------------------------------------
-    dw $508E
+    dw $508D
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-HARD--------------------------------------------------------
     gameText_ingame("dificil")
@@ -377,35 +408,12 @@ option_mode_0012:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
 //-----[Y][X]----------------------------------------------------------------
-    dw $50D8
+    dw $50D7
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
     gameText_ingame("5")
 endstring()
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
-//---------------------------------------------------------------------------
-
-//origin $86D8
-////xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-////option_mode_0003:
-////xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-//
-////xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-////xxxxxxxxxxxxxxxxxxxxxx    SCRIPT CONTINUE    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-////xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-//
-////xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-////xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-////-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
-////-----[Y][X]----------------------------------------------------------------
-//    dw $51CE
-////xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-////--------SCRIPT-------------------------------------------------------------
-////    db $7A, $7B, $7C, $7D, $7E, $7F
-    //gameText_ingame("continuar")
-//endstring()
-////xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 //---------------------------------------------------------------------------
 

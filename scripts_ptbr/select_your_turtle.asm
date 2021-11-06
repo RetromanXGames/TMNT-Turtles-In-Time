@@ -40,25 +40,25 @@ endstring()
 
 //---------------------------------------------------------------------------
 
-//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-//xxxxxxxxxxxxxxxxxxxxxxxxxx    BLANK    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-//-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
-//-----[Y][X]----------------------------------------------------------------
-    dw $50A6
-//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-//--------SCRIPT-------------------------------------------------------------
-    gameText_select_your_turtle("                   ")
-newline()
-//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
-//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-//-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
-//-----[Y][X]----------------------------------------------------------------
-    dw $50C6
-//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-//--------SCRIPT-------------------------------------------------------------
-    gameText_select_your_turtle("                   ")
-endstring()
-//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+////xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+////xxxxxxxxxxxxxxxxxxxxxxxxxx    BLANK    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+////xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+////-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
+////-----[Y][X]----------------------------------------------------------------
+//    dw $50A6
+////xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+////--------SCRIPT-------------------------------------------------------------
+//    gameText_select_your_turtle("                   ")
+//newline()
+////xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//
+////xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+////-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
+////-----[Y][X]----------------------------------------------------------------
+//    dw $50C6
+////xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+////--------SCRIPT-------------------------------------------------------------
+//    gameText_select_your_turtle("                   ")
+//endstring()
+////xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 

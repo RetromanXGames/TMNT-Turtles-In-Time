@@ -7,8 +7,6 @@ title_screen_script_0000:
     dw $5267
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
-//   gameText_ingame("1 player")
-//
    db $91, $92, $93, $94, $95, $96, $97 
 endstring()
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
@@ -24,8 +22,6 @@ title_screen_script_0001:
    dw $52A7
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
-//   gameText_ingame("2 players")
-// 
    db $90, $92, $93, $94, $95, $96, $98, $99
 endstring()
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
@@ -41,8 +37,6 @@ title_screen_script_0002:
     dw $52B2
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
-//   gameText_ingame("versus")
-//
    db $B3, $B4, $B5, $B6
 endstring()
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
@@ -58,8 +52,6 @@ title_screen_script_0003:
     dw $525A
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
-//   gameText_ingame("(hifen)")
-//
    db $B0, $B1
 newline()
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
@@ -68,8 +60,6 @@ newline()
     dw $5272
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
-//   gameText_ingame("time trial")
-//
    db $A0, $A1, $A2, $A3, $A4, $A5, $A6, $A7, $A8, $A9, $B2
 endstring()
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
@@ -82,31 +72,32 @@ title_screen_script_0004:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
 //-----[Y][X]----------------------------------------------------------------
-//   dw $52C9
-////xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-////--------SCRIPT-ACENTO-TIO--------------------------------------------------
-//   db $AF, $B1
-//newline()
-////xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+   dw $52C9
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//--------SCRIPT-ACENTO-TIO--------------------------------------------------
+   db $AF, $B1
+newline()
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
 //-----[Y][X]----------------------------------------------------------------
    dw $52E7
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-OPTION------------------------------------------------------
    db $62, $63, $64, $65, $66
-//newline()
-////xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-////-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
-////-----[Y][X]----------------------------------------------------------------
-//   dw $5308
-////xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-////--------SCRIPT-ACENTO-CEDILHA----------------------------------------------
-//   db $67, $68
+newline()
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
+//-----[Y][X]----------------------------------------------------------------
+   dw $5308
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//--------SCRIPT-ACENTO-CEDILHA----------------------------------------------
+   db $67, $68
 endstring()
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 //---------------------------------------------------------------------------
 
+origin $008955
 title_screen_script_0005:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxx   1992 KONAMI ALL RIGHTS RESERVED.   xxxxxxxxxxxxxxxxxxxxxx

@@ -1,0 +1,110 @@
+    gameText_select_your_turtle("VS")
+endstring()
+
+
+    gameText_select_your_turtle("LEONARDO")
+endstring()
+
+
+    gameText_select_your_turtle("MICHELANGELO")
+endstring()
+
+
+    gameText_select_your_turtle("DONATELLO")
+endstring()
+
+
+    gameText_select_your_turtle("RAPHAEL")
+endstring()
+
+
+    gameText_select_your_turtle("            ")
+endstring()
+
+
+    gameText_select_your_turtle("READY")
+endstring()
+
+
+    gameText_select_your_turtle("START")
+endstring()
+
+
+    gameText_select_your_turtle("FIGHT")
+endstring()
+
+
+    gameText_select_your_turtle("1P WIN")
+endstring()
+
+
+    gameText_select_your_turtle("2P WIN")
+endstring()
+
+
+    gameText_select_your_turtle("TIME UP")
+endstring()
+
+
+    gameText_select_your_turtle("DRAW")
+endstring()
+
+
+    gameText_select_your_turtle("LEONARDO WIN")
+endstring()
+
+
+    gameText_select_your_turtle("MICHAELANGELO WIN")
+endstring()
+
+
+    gameText_select_your_turtle("DONATELLO WIN")
+endstring()
+
+
+    gameText_select_your_turtle("RAPHAEL WIN")
+endstring()
+
+
+    gameText_select_your_turtle("ROUND 1")
+endstring()
+
+
+    gameText_select_your_turtle("ROUND 2")
+endstring()
+
+
+    gameText_select_your_turtle("ROUND 3")
+endstring()
+
+
+    gameText_select_your_turtle("ROUND 4")
+endstring()
+
+
+    gameText_select_your_turtle("ROUND 5")
+endstring()
+
+
+    gameText_select_your_turtle("ROUND 6")
+endstring()
+
+
+    gameText_select_your_turtle("CONGRATULATIONS !")
+endstring()
+
+
+    gameText_select_your_turtle("ROUND CLEAR")
+endstring()
+
+
+    gameText_select_your_turtle("LAP  TIME")
+endstring()
+
+
+    gameText_select_your_turtle("ALL  TIME")
+endstring()
+
+
+    gameText_select_your_turtle("BEST TIME")
+endstring()

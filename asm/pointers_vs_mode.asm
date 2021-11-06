@@ -1,0 +1,31 @@
+dw vs_mode_script_0000
+
+origin $00D6D2
+dw vs_mode_script_0001
+dw vs_mode_script_0002
+dw vs_mode_script_0003
+dw vs_mode_script_0004
+
+//dw vs_mode_script_0005
+//dw vs_mode_script_0006
+//dw vs_mode_script_0007
+//dw vs_mode_script_0008
+//dw vs_mode_script_0009
+//dw vs_mode_script_0010
+//dw vs_mode_script_0011
+//dw vs_mode_script_0012
+//dw vs_mode_script_0013
+//dw vs_mode_script_0014
+//dw vs_mode_script_0015
+//dw vs_mode_script_0016
+//dw vs_mode_script_0017
+//dw vs_mode_script_0018
+//dw vs_mode_script_0019
+//dw vs_mode_script_0020
+//dw vs_mode_script_0021
+//dw vs_mode_script_0022
+//dw vs_mode_script_0023
+//dw vs_mode_script_0024
+//dw vs_mode_script_0025
+//dw vs_mode_script_0026
+//dw vs_mode_script_0027

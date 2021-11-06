@@ -1,6 +1,6 @@
 script_bonus_stage_0000:
 //--------SCRIPT-------------------------------------------------------------
-    gameText_stage_intro("BONUS STAGE")
+    gameText_stage_intro("FASE BONUS")
  endstring()
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
@@ -9,7 +9,7 @@ script_bonus_stage_0000:
 script_bonus_stage_0001:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
-    gameText_stage_intro("IT'S SHOW TIME!")
+    gameText_stage_intro("É HORA DO SHOW!")
  endstring()
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
@@ -18,7 +18,7 @@ script_bonus_stage_0001:
 script_bonus_stage_0002:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
-    gameText_stage_intro("                ")
+    gameText_stage_intro("               ")
  endstring()
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
@@ -27,7 +27,7 @@ script_bonus_stage_0002:
 script_bonus_stage_0003:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
-    gameText_stage_intro("FOOT SOLDIER")
+    gameText_stage_intro("NINJA DO CLÃ DO PÉ")
  endstring()
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
@@ -36,7 +36,7 @@ script_bonus_stage_0003:
 script_bonus_stage_0004:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
-    gameText_stage_intro("PIZZA MONSTER")
+    gameText_stage_intro("MONTRO DA PIZZA")
  endstring()
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
@@ -54,16 +54,17 @@ script_bonus_stage_0005:
 script_bonus_stage_0006:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
-    gameText_stage_intro("BONUS PIZZA  ")
+    gameText_stage_intro("BONUS DA PIZZA ")
  endstring()
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
+//PROCURANDO BANCO PAREI EM $90000
 //---------------------------------------------------------------------------
 
 script_bonus_stage_0007:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
-    gameText_stage_intro("BONUS POINTS")
+    gameText_stage_intro("PONTOS DE BONUS")
  endstring()
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
@@ -72,16 +73,16 @@ script_bonus_stage_0007:
 script_bonus_stage_0008:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
-    gameText_stage_intro("POINTS SCORED")
+    gameText_stage_intro("PONTOS ANOTADOS")
  endstring()
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 //---------------------------------------------------------------------------
-
+origin $008979
 script_bonus_stage_0009:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
-    gameText_stage_intro("1P")
+    gameText_stage_intro("J1")
  endstring()
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
@@ -90,6 +91,15 @@ script_bonus_stage_0009:
 script_bonus_stage_0010:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
-    gameText_stage_intro("2P")
+    gameText_stage_intro("J2")
+ endstring()
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+//---------------------------------------------------------------------------
+
+script_bonus_stage_0011:
+//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//--------SCRIPT-------------------------------------------------------------
+    gameText_stage_intro("                             ")
  endstring()
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx

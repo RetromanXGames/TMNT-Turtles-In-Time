@@ -7,18 +7,18 @@ script_option_mode_sound_test_0000:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
 //-----[Y][X]----------------------------------------------------------------
-    dw $51F9
+    dw $51F8
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
-    db $C8
+    gameText_ingame("(hifen)")
 newline()
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
 //-----[Y][X]----------------------------------------------------------------
-    dw $5215
+    dw $5213
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
-    db $C0, $C1, $C2, $C3, $C4, $C5, $C6, $C7
+    gameText_ingame("automatica")
 endstring()
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
@@ -33,18 +33,18 @@ script_option_mode_sound_test_0001:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
 //-----[Y][X]----------------------------------------------------------------
-    dw $51F9
+    dw $51F8
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
-    db $00
+    gameText_ingame(" ")
 newline()
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
 //-----[Y][X]----------------------------------------------------------------
-    dw $5215
+    dw $5213
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
-    db $AA, $AB, $AC, $AD, $AE, $00, $00, $00 
+    gameText_ingame("manual    ")
 endstring()
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
@@ -59,10 +59,10 @@ script_option_mode_sound_test_0002:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
 //-----[Y][X]----------------------------------------------------------------
-    dw $5255
+    dw $5253
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
-    db $B0, $B1, $B2, $B3, $B4, $00, $00 
+    gameText_ingame("ligado   ")
 endstring()
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
@@ -77,10 +77,10 @@ script_option_mode_sound_test_0003:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
 //-----[Y][X]----------------------------------------------------------------
-    dw $5255
+    dw $5253
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
-    db $B5, $B6, $B7, $B8, $B9, $BA, $BB
+    gameText_ingame("desligado")
 endstring()
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
@@ -95,18 +95,18 @@ script_option_mode_sound_test_0004:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
 //-----[Y][X]----------------------------------------------------------------
-    dw $52B7
+    dw $52B6
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
-    db $CB, $CC
+    gameText_ingame("(hifen)")
 newline()
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
 //-----[Y][X]----------------------------------------------------------------
-    dw $52D5
+    dw $52D3
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
-    db $A0, $A1, $A2, $A3, $A4, $A5  
+    gameText_ingame("estereo")
 endstring()
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
@@ -121,23 +121,23 @@ script_option_mode_sound_test_0005:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
 //-----[Y][X]----------------------------------------------------------------
-    dw $52B7
+    dw $52B6
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
-    db $00, $00
+    gameText_ingame(" ")
 newline()
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
 //-----[Y][X]----------------------------------------------------------------
-    dw $52D5
+    dw $52D3
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
-    db $A6, $A7, $A8, $A9, $00, $00
+    gameText_ingame("mono   ")
 endstring()
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 //---------------------------------------------------------------------------
-
+origin $0088A8
 script_option_mode_sound_test_0006:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxx    SCRIPT ANIMATION    xxxxxxxxxxxxxxxxxxxxxxxxxxxx
@@ -147,10 +147,10 @@ script_option_mode_sound_test_0006:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
 //-----[Y][X]----------------------------------------------------------------
-    dw $5315
+    dw $5313
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
-    db $89, $8A, $8B, $8C, $8D, $8E, $00, $00 
+    gameText_ingame("desenho   ")
 endstring()
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
@@ -165,10 +165,10 @@ script_option_mode_sound_test_0007:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
 //-----[Y][X]----------------------------------------------------------------
-    dw $5315
+    dw $5313
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
-    db $96, $97, $98, $99, $9A, $9B, $9C, $9D 
+    gameText_ingame("quadrinhos")
 endstring()
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
@@ -183,7 +183,7 @@ script_option_mode_sound_test_0008:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
 //-----[Y][X]----------------------------------------------------------------
-    dw $51D5
+    dw $51D3
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
     gameText_ingame("03")
@@ -192,7 +192,7 @@ endstring()
 
 //---------------------------------------------------------------------------
 
-origin $0088A8
+
 
 script_option_mode_sound_test_0009:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
@@ -203,7 +203,7 @@ script_option_mode_sound_test_0009:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
 //-----[Y][X]----------------------------------------------------------------
-    dw $51D5
+    dw $51D3
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
     gameText_ingame("05")
@@ -221,7 +221,7 @@ script_option_mode_sound_test_0010:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
 //-----[Y][X]----------------------------------------------------------------
-    dw $51D5
+    dw $51D3
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
     gameText_ingame("07")
@@ -239,7 +239,7 @@ script_option_mode_sound_test_0011:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
 //-----[Y][X]----------------------------------------------------------------
-    dw $51D5
+    dw $51D3
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
     gameText_ingame("10")
@@ -257,7 +257,7 @@ script_option_mode_sound_test_0012:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
 //-----[Y][X]----------------------------------------------------------------
-    dw $51D5
+    dw $51D3
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
     gameText_ingame("3")
@@ -275,7 +275,7 @@ script_option_mode_sound_test_0013:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
 //-----[Y][X]----------------------------------------------------------------
-    dw $51D5
+    dw $51D3
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
     gameText_ingame("4")
@@ -293,7 +293,7 @@ script_option_mode_sound_test_0014:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
 //-----[Y][X]----------------------------------------------------------------
-    dw $51D5
+    dw $51D3
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
     gameText_ingame("5")
@@ -302,7 +302,7 @@ endstring()
 
 //---------------------------------------------------------------------------
 
-origin $0088C3
+//origin $0088C3
 script_option_mode_sound_test_0015:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxx    SCRIPT OPEN    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
@@ -312,82 +312,28 @@ script_option_mode_sound_test_0015:
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
 //-----[Y][X]----------------------------------------------------------------
-    dw $5295
+    dw $5273
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
-    db $D0, $D1, $D2, $D3, $D4, $D5, $D6, $D7, $D8
-endstring()
-//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
-//---------------------------------------------------------------------------
-
-script_option_mode_sound_test_0016:
-//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-//xxxxxxxxxxxxxxxxxxxxxxx    SCRIPT SELECT    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
+    db $70, $71, $72, $73, $74, $75, $76, $77, $78, $79, $7A, $7B
+newline()
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
 //-----[Y][X]----------------------------------------------------------------
-    dw $5295
+    dw $5293
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
-    db $D0, $D1, $D2, $D3, $D4, $D5, $D6, $D7, $D8
-endstring()
-//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
-//---------------------------------------------------------------------------
-
-script_option_mode_sound_test_0017:
-//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-//xxxxxxxxxxxxxxxxxxxxxxxxxx    BAD NEWS    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
+    db $80, $81, $82, $83, $84, $85, $86, $87, $88, $89, $8A, $8B
+newline()
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
 //-----[Y][X]----------------------------------------------------------------
-    dw $5295
+    dw $52B7
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 //--------SCRIPT-------------------------------------------------------------
-    db $D0, $D1, $D2, $D3, $D4, $D5, $D6, $D7, $D8
-endstring()
-//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
-//---------------------------------------------------------------------------
-
-script_option_mode_sound_test_0018:
-//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-//xxxxxxxxxxxxxxxxxxxxxxxx    SCRIPT ROOF    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
-//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-//-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
-//-----[Y][X]----------------------------------------------------------------
-    dw $5295
-//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-//--------SCRIPT-------------------------------------------------------------
-    db $D0, $D1, $D2, $D3, $D4, $D5, $D6, $D7, $D8
-endstring()
-//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
-//---------------------------------------------------------------------------
-
-script_option_mode_sound_test_0019:
-//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-//xxxxxxxxxxxxxxxxxxxxxxxx    SCRIPT DOWNTOWN    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
-//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-//-----AJUSTE DA POSIÇÃO INICIAL DA STRING-----------------------------------
-//-----[Y][X]----------------------------------------------------------------
-    dw $5295
-//xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-//--------SCRIPT-------------------------------------------------------------
-    db $D0, $D1, $D2, $D3, $D4, $D5, $D6, $D7, $D8
+    db $94, $95, $96, $97, $98, $99, $9A, $9B
 endstring()
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 

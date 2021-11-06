@@ -1,1 +1,1 @@
-konami_d.exe "TMNT_IV(USA).sfc" 3fe14 1
+konami_d.exe "TMNT_IV(USA).sfc" 5A45B 1

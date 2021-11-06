@@ -1,0 +1,17 @@
+bonus_stage = não está ultrapassando o limite
+messages_hud = 
+name_hud = não está ultrapassando o limite
+options_mode = não está ultrapassando o limite
+select_your_turtle = não está ultrapassando o limite 
+sound_test_and_options = não está ultrapassando o limite
+stage_clear = não está ultrapassando o limite
+stage_intro = não está ultrapassando o limite
+title_screen = não está ultrapassando o limite
+
+
+
+
+
+
+
+
