@@ -3,6 +3,11 @@ macro gameText_ingame(text) {
  db {text}
 }
 
+macro gameText_time_trial(text) {
+ table "tables\time_trial.tbl"
+ db {text}
+}
+
 macro gameText_stage_intro(text) {
  table "tables\stage_intro.tbl"
  db {text}
